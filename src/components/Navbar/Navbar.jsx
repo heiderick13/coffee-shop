@@ -1,3 +1,5 @@
+import "./Navbar.css";
+
 import logo from "../../assets/logo.svg";
 
 import { MdMenu } from "react-icons/md";
@@ -7,12 +9,12 @@ function Navbar() {
     // function from props
   };
   return (
-    <nav className="flex items-center justify-between p-4">
+    <nav className="navbar d-flex">
       <img src={logo} alt="Company Logo" />
-      <div className="md:hidden text-3xl cursor-pointer" onClick={openMenu}>
+      <div className="nav-menu" onClick={openMenu}>
         <MdMenu />
       </div>
-      <div className="hidden md:flex gap-4 uppercase">
+      <div className="nav-links">
         <a className="">home</a>
         <a className="">about us</a>
         <a className="">create your plan</a>
