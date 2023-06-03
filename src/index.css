@@ -17,3 +17,11 @@ html {
 .fraunces {
   font-family: "Fraunces", serif;
 }
+
+.home-hero {
+  background: url(./assets/home/mobile/image-hero-coffeepress.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 2;
+  min-height: 45rem;
+}
