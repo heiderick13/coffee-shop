@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap");
 
+:root {
+  --darkCyan: #0e8784;
+  --dark0grey-blue: #333d4b;
+  --pale-orange: #fdd6ba;
+  --grey: #83888f;
+  --light-cream: #fefcf7;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,10 +26,7 @@ html {
   font-family: "Fraunces", serif;
 }
 
-.home-hero {
-  background: url(./assets/home/mobile/image-hero-coffeepress.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  line-height: 2;
-  min-height: 45rem;
+.btn {
+  background-color: #0e8784;
+  padding: 1rem 1.5rem;
 }
