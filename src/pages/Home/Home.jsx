@@ -1,4 +1,6 @@
-import React from "react";
+import "./Home.css";
+
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -9,7 +11,9 @@ function Home() {
         curated artisan coffees from our best roasters delivered directly to
         your door, at your schedule.
       </p>
-      <button className="btn main-btn rounded-3">Create you plan</button>
+      <Link to={"/subscribe"} className="btn main-btn rounded-3">
+        Create you plan
+      </Link>
     </div>
   );
 }
