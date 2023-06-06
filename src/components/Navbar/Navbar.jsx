@@ -9,7 +9,7 @@ function Navbar() {
     // function from props
   };
   return (
-    <nav className="navbar d-flex">
+    <nav className="navbar d-flex mb-5">
       <img src={logo} alt="Company Logo" />
       <div className="nav-menu" onClick={openMenu}>
         <MdMenu />
