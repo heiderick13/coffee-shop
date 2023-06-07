@@ -1,0 +1,27 @@
+.backdrop {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+    to bottom,
+    var(--light-cream),
+    var(--light-cream),
+    hsl(43, 78%, 98%, 0.7),
+    hsl(43, 78%, 98%, 0.5)
+  );
+}
+
+.mobile-menu {
+  flex-direction: column;
+  gap: 2rem;
+  text-transform: capitalize;
+  font-size: 2.6rem;
+
+  position: absolute;
+  inset: 30% 0;
+
+  z-index: 10;
+}
+
+.mobile-menu a {
+  color: var(--dark-grey-blue);
+}
