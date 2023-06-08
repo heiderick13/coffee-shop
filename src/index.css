@@ -2,7 +2,7 @@
 
 :root {
   --darkCyan: #0e8784;
-  --dark0grey-blue: #333d4b;
+  --dark-grey-blue: #333d4b;
   --pale-orange: #fdd6ba;
   --grey: #83888f;
   --light-cream: #fefcf7;
@@ -16,6 +16,18 @@
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+.z-100 {
+  z-index: 100;
 }
 
 .barlow {
