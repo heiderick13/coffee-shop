@@ -1,0 +1,19 @@
+.collection-item {
+  color: var(--dark-grey-blue);
+}
+
+.collection-item * {
+  padding-bottom: 1rem;
+}
+
+.collection-item img {
+  height: 250px;
+}
+
+.collection-item__name {
+  font-size: 2.4rem;
+}
+
+.collection-item__description {
+  font-size: 1.5rem;
+}
