@@ -26,5 +26,15 @@
 }
 
 .collection {
-  text-align: center;
+  margin-top: 10rem;
+}
+
+.collection h2 {
+  font-size: 4.2rem;
+  background: -webkit-linear-gradient(
+    var(--dark-grey-blue),
+    var(--light-cream)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

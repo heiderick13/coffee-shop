@@ -22,8 +22,8 @@ function Home() {
           Create you plan
         </Link>
       </div>
-      <div className="collection">
-        <h2>our collection</h2>
+      <div className="collection text-center">
+        <h2 className="fraunces mb-5">our collection</h2>
         <Collectable
           img={espresso}
           title={"Gran Expresso"}
