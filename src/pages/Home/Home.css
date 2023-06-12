@@ -38,3 +38,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.pros {
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pros * {
+  padding: 1rem 0;
+}
