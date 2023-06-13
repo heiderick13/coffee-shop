@@ -8,7 +8,7 @@ function MobileMenu({ toggleMenu }) {
   return (
     <>
       <div className="backdrop"></div>
-      <div className="close-menu position-absolute" onClick={toggleMenu}>
+      <div className="close-menu position-fixed" onClick={toggleMenu}>
         <MdClear />
       </div>
       <div className="mobile-menu fraunces d-flex text-center rounded-4">
