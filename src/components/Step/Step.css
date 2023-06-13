@@ -1,0 +1,13 @@
+.step__number {
+  color: var(--pale-orange);
+  font-size: 8rem;
+}
+
+.step__title {
+  font-size: 3.2rem;
+  color: var(--dark-grey-blue);
+}
+
+.step p:last-child {
+  font-size: 1.5rem;
+}
