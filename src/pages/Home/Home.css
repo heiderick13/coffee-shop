@@ -60,3 +60,8 @@
   font-size: 1.6rem;
   color: var(--grey);
 }
+
+.steps {
+  margin-top: 95rem;
+  text-align: center;
+}

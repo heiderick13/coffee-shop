@@ -12,6 +12,7 @@ import ProsCard from "../../components/ProsCard/ProsCard";
 import coffeeBean from "../../assets/home/desktop/icon-coffee-bean.svg";
 import gift from "../../assets/home/desktop/icon-gift.svg";
 import truck from "../../assets/home/desktop/icon-truck.svg";
+import Step from "../../components/Step/Step";
 
 function Home() {
   return (
@@ -79,6 +80,29 @@ function Home() {
           icon={truck}
           pro={`Free shipping`}
           description={`We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.`}
+        />
+      </div>
+      <div className="steps fraunces">
+        <Step
+          num={"01"}
+          title={"Pick your coffee"}
+          description={
+            "Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out."
+          }
+        />
+        <Step
+          num={"02"}
+          title={"Choose the frequency"}
+          description={
+            "Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal."
+          }
+        />
+        <Step
+          num={"03"}
+          title={"Receive and enjoy!"}
+          description={
+            "We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience."
+          }
         />
       </div>
     </div>
