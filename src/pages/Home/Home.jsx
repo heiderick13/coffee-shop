@@ -16,7 +16,7 @@ import truck from "../../assets/home/desktop/icon-truck.svg";
 function Home() {
   return (
     <div className="home">
-      <div className="home-hero d-flex fraunces text-center rounded-4 px-5">
+      <div className="home-hero d-flex fraunces rounded-4 px-5">
         <h1 className="mb-5">Great coffee made simple</h1>
         <p className="barlow mb-5">
           Start your mornings with the world’s best coffees. Try our expertly
@@ -58,7 +58,13 @@ function Home() {
           }
         />
       </div>
-      <div className="pros d-flex">
+      <div className="pros d-flex p-5 rounded-4">
+        <h2 className="fraunces">Why choose us?</h2>
+        <p className="barlow">
+          A large part of our role is choosing which particular coffees will be
+          featured in our range. This means working closely with the best coffee
+          growers to give you a more impactful experience on every level.
+        </p>
         <ProsCard
           icon={coffeeBean}
           pro={`Best quality`}
