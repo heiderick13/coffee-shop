@@ -20,9 +20,10 @@ footer .socials {
   gap: 2rem;
   color: var(--light-cream);
   font-size: 3rem;
-  transition: 0.3s;
 }
 
 footer .socials *:hover {
+  transition: 0.3s;
+  cursor: pointer;
   color: var(--pale-orange);
 }
