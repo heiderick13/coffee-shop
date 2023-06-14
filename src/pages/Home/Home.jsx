@@ -16,7 +16,7 @@ import Step from "../../components/Step/Step";
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home p-4">
       <div className="home-hero d-flex fraunces rounded-4 px-5">
         <h1 className="mb-5">Great coffee made simple</h1>
         <p className="barlow mb-5">
