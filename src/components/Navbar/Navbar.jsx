@@ -17,7 +17,7 @@ function Navbar() {
   };
   return (
     <>
-      <nav className="navbar d-flex mb-5">
+      <nav className="navbar d-flex p-4 mb-5">
         <Link>
           <img src={logo} alt="Company Logo" />
         </Link>
