@@ -25,6 +25,7 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .barlow {
@@ -33,9 +34,4 @@ a {
 
 .fraunces {
   font-family: "Fraunces", serif;
-}
-
-.btn {
-  background-color: #0e8784;
-  padding: 1rem 1.5rem;
 }

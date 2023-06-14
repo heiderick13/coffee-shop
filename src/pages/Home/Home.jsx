@@ -1,8 +1,6 @@
 import Collectable from "../../components/Collectable/Collectable";
 import "./Home.css";
 
-import { Link } from "react-router-dom";
-
 import espresso from "../../assets/home/desktop/image-gran-espresso.png";
 import planalto from "../../assets/home/desktop/image-planalto.png";
 import piccollo from "../../assets/home/desktop/image-piccollo.png";
@@ -13,6 +11,7 @@ import coffeeBean from "../../assets/home/desktop/icon-coffee-bean.svg";
 import gift from "../../assets/home/desktop/icon-gift.svg";
 import truck from "../../assets/home/desktop/icon-truck.svg";
 import Step from "../../components/Step/Step";
+import CreateBtn from "../../components/CreateBtn/CreateBtn";
 
 function Home() {
   return (
@@ -24,9 +23,7 @@ function Home() {
           curated artisan coffees from our best roasters delivered directly to
           your door, at your schedule.
         </p>
-        <Link to={"/subscribe"} className="btn main-btn rounded-3">
-          Create you plan
-        </Link>
+        <CreateBtn />
       </div>
       <div className="collection text-center">
         <h2 className="fraunces mb-5">our collection</h2>
@@ -104,6 +101,7 @@ function Home() {
             "We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience."
           }
         />
+        <CreateBtn />
       </div>
     </div>
   );
