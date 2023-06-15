@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --darkCyan: hsl(179, 81%, 29%);
@@ -28,10 +31,10 @@ a {
   color: inherit;
 }
 
-.barlow {
+/* .barlow {
   font-family: "Barlow", sans-serif;
 }
 
 .fraunces {
   font-family: "Fraunces", serif;
-}
+} */
