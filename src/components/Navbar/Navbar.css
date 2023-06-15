@@ -2,18 +2,3 @@
   align-items: center;
   font-size: 2rem;
 }
-
-.nav-links {
-  display: none;
-  text-transform: uppercase;
-}
-
-@media screen and (min-width: 500px) {
-  .nav-menu {
-    display: none;
-  }
-
-  .nav-links {
-    display: flex;
-  }
-}

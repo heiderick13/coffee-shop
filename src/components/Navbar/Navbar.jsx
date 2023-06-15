@@ -21,11 +21,11 @@ function Navbar() {
         <Link>
           <img src={logo} alt="Company Logo" />
         </Link>
-        <div className="nav-menu" onClick={toggleMenu}>
+        <div className="nav-menu md:hidden" onClick={toggleMenu}>
           <MdMenu />
         </div>
 
-        <div className="nav-links">
+        <div className="hidden md:flex gap-4 nav-links uppercase">
           <Link to={"/"} className="">
             home
           </Link>
