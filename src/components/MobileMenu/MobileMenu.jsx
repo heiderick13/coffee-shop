@@ -7,11 +7,14 @@ import { Link } from "react-router-dom";
 function MobileMenu({ toggleMenu }) {
   return (
     <>
-      <div className="backdrop"></div>
-      <div className="close-menu position-fixed" onClick={toggleMenu}>
+      <div className="backdrop fixed inset-0 "></div>
+      <div
+        className="close-menu fixed top-8 right-8 text-4xl"
+        onClick={toggleMenu}
+      >
         <MdClear />
       </div>
-      <div className="mobile-menu fraunces d-flex text-center rounded-4">
+      <div className="mobile-menu font-fraunces flex flex-col gap-8 text-center capitalize fixed inset-[20%] text-dark-grey-blue">
         <Link to={"/"} onClick={toggleMenu}>
           home
         </Link>
