@@ -9,12 +9,3 @@
     hsl(43, 78%, 98%, 0.5)
   );
 }
-
-.mobile-menu {
-  font-size: 2.6rem;
-  z-index: 10;
-}
-
-.mobile-menu a {
-  /* color: var(--dark-grey-blue); */
-}

@@ -14,7 +14,7 @@ function MobileMenu({ toggleMenu }) {
       >
         <MdClear />
       </div>
-      <div className="mobile-menu font-fraunces flex flex-col gap-8 text-center capitalize fixed inset-[20%] text-dark-grey-blue">
+      <div className="mobile-menu font-fraunces flex flex-col gap-8 text-center text-[2.6rem] capitalize fixed inset-[20%] text-dark-grey-blue z-10">
         <Link to={"/"} onClick={toggleMenu}>
           home
         </Link>
