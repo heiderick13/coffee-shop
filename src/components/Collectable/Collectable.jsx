@@ -1,11 +1,9 @@
-import "./Collectable.css";
-
 function Collectable({ title, description, img }) {
   return (
-    <div className="collection-item lh-lg mb-4">
+    <div className="collection-item text-dark-grey-blue mb-6 px-6">
       <img src={img} alt="Producto Photo" />
-      <h3 className="collection-item__name fraunces">{title}</h3>
-      <p className="collection-item__description barlow">{description}</p>
+      <h3 className="font-fraunces text-[2.4rem]">{title}</h3>
+      <p className="font-barlow text-[1.5rem]">{description}</p>
     </div>
   );
 }
