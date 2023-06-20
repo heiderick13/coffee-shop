@@ -86,7 +86,7 @@ function Home() {
         </div>
       </div>
       <div className="steps font-fraunces text-center mt-[80rem] md:mt-0 pb-8">
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row mb-8">
           <Step
             num={"01"}
             title={"Pick your coffee"}
