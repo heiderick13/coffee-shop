@@ -15,7 +15,7 @@ import CreateBtn from "../../components/CreateBtn/CreateBtn";
 
 function Home() {
   return (
-    <div className="home p-4">
+    <div className="home p-6">
       <div className="home-hero min-h-[45rem] text-light-cream flex flex-col gap-4 justify-center items-center md:items-start text-center md:text-left font-fraunces rounded-xl px-5">
         <h1 className="mb-5 leading-tight md:max-w-[35%] text-[4.6rem]">
           Great coffee made simple
@@ -60,7 +60,7 @@ function Home() {
           />
         </div>
       </div>
-      <div className="pros max-h-[900px] text-light-cream text-center mt-16 p-5 rounded-xl bg-dark-grey-blue">
+      <div className="pros max-h-[900px] text-light-cream text-center mt-16 p-6 rounded-xl bg-dark-grey-blue">
         <h2 className="font-fraunces py-4 text-[3.6rem]">Why choose us?</h2>
         <p className="font-barlow text-[1.6rem] text-grey py-4 md:max-w-[40rem] md:m-auto">
           A large part of our role is choosing which particular coffees will be
