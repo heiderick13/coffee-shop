@@ -3,12 +3,6 @@
   color: var(--light-cream);
 }
 
-.home-hero {
-  background: url(../../assets/home/mobile/image-hero-coffeepress.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .collection h2 {
   background: -webkit-linear-gradient(
     var(--dark-grey-blue),
