@@ -14,6 +14,16 @@ export default {
         fraunces: ["Fraunces", "serif"],
         barlow: ["Barlow", "sans-serif"],
       },
+      backgroundImage: {
+        "mobile-coffeePress":
+          "url(./src/assets/home/mobile/image-hero-coffeepress.jpg)",
+        "desktop-coffeePress":
+          "url(./src/assets/home/desktop/image-hero-coffeepress.jpg)",
+        "mobile-whitecup":
+          "url(./src/assets/about/mobile/image-hero-whitecup.jpg)",
+        "desktop-whitecup":
+          "url(./src/assets/about/desktop/image-hero-whitecup.jpg)",
+      },
     },
   },
   plugins: [],
