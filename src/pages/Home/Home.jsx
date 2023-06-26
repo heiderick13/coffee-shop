@@ -16,7 +16,7 @@ import CreateBtn from "../../components/CreateBtn/CreateBtn";
 function Home() {
   return (
     <div className="home p-6">
-      <div className="home-hero min-h-[45rem] text-light-cream flex flex-col gap-4 justify-center items-center md:items-start text-center md:text-left font-fraunces rounded-xl px-5">
+      <div className="home-hero min-h-[50rem] text-light-cream flex flex-col gap-4 justify-center items-center md:items-start text-center md:text-left font-fraunces rounded-xl px-16 bg-mobile-coffeePress bg-no-repeat bg-cover md:bg-desktop-coffeePress">
         <h1 className="mb-5 leading-tight md:max-w-[35%] text-[4.6rem]">
           Great coffee made simple
         </h1>
