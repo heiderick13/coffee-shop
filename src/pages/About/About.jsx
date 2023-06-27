@@ -1,6 +1,7 @@
 import React from "react";
 
 import commitmentImg from "../../assets/about/desktop/image-commitment.jpg";
+import qualityImg from "../../assets/about/mobile/image-quality.jpg";
 
 function About() {
   return (
@@ -40,6 +41,25 @@ function About() {
             community initiatives, and invest in coffee plant science. Curating
             only the finest blends, we roast each lot to highlight tasting
             profiles distinctive to their native growing region.
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row-reverse items-center md:justify-between rounded-xl px-10 bg-dark-grey-blue mt-[40%] ">
+        <img
+          className="rounded-xl -translate-y-1/2 md:-translate-y-1/3 md:aspect-[2/3] md:max-h-[30rem]"
+          src={qualityImg}
+          alt=""
+        />
+        <div className="text-center md:text-left md:max-w-3xl text-light-cream -translate-y-1/4 md:translate-y-0">
+          <h3 className="font-fraunces text-[2.4rem] pb-12">
+            Uncompromising quality
+          </h3>
+          <p className="font-barlow text-[1.5rem]">
+            Although we work with growers who pay close attention to all stages
+            of harvest and processing, we employ, on our end, a rigorous quality
+            control program to avoid over-roasting or baking the coffee dry.
+            Every bag of coffee is tagged with a roast date and batch number.
+            Our goal is to roast
           </p>
         </div>
       </div>
