@@ -2,6 +2,11 @@ import React from "react";
 
 import commitmentImg from "../../assets/about/desktop/image-commitment.jpg";
 import qualityImg from "../../assets/about/mobile/image-quality.jpg";
+import HeadQuarter from "../../components/HeadQuarter/HeadQuarter";
+
+import uk from "../../assets/about/desktop/illustration-uk.svg";
+import canada from "../../assets/about/desktop/illustration-canada.svg";
+import australia from "../../assets/about/desktop/illustration-australia.svg";
 
 function About() {
   return (
@@ -46,7 +51,7 @@ function About() {
       </div>
       <div className="flex flex-col md:flex-row-reverse items-center md:justify-between rounded-xl px-10 bg-dark-grey-blue mt-[40%] ">
         <img
-          className="rounded-xl -translate-y-1/2 md:-translate-y-1/3 md:aspect-[2/3] md:max-h-[30rem]"
+          className="rounded-xl -translate-y-1/2 md:-translate-y-1/3 md:aspect-[2/3] md:max-h-[40rem]"
           src={qualityImg}
           alt=""
         />
@@ -61,6 +66,37 @@ function About() {
             Every bag of coffee is tagged with a roast date and batch number.
             Our goal is to roast
           </p>
+        </div>
+      </div>
+      <div className="mt-16">
+        <h3 className="text-[2.4rem] font-fraunces text-grey text-center md:text-left mb-8">
+          Our Headquartes
+        </h3>
+        <div className="flex flex-col md:flex-row">
+          <HeadQuarter
+            icon={uk}
+            hq={"united kingdom"}
+            address={"68  Asfordby Rd"}
+            city={"Alcaston"}
+            state={"SY6 1YA"}
+            phone={"+44 1241 918425"}
+          />
+          <HeadQuarter
+            icon={canada}
+            hq={"canada"}
+            address={"1528  Eglinton Avenue"}
+            city={"Toronto"}
+            state={"Ontario M4P 1A6"}
+            phone={"+1 416 485 2997"}
+          />
+          <HeadQuarter
+            icon={australia}
+            hq={"australia"}
+            address={"36 Swanston Street"}
+            city={"Kewell"}
+            state={"Victoria"}
+            phone={"+61 4 9928 3629"}
+          />
         </div>
       </div>
     </div>
